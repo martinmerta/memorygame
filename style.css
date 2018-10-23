@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: 33.3vh;
+    border: 2px solid white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (orientation: portrait) {
+    div {
+        flex-basis: 30%;
+        height: 16.66vh
+    }
+}
+
+.asp {
+    background-image: url('obrazki/asp.gif');
+}
+
+.cplusplus {
+    background-image: url('obrazki/cplusplus.gif');
+}
+
+.csharp {
+    background-image: url('obrazki/csharp.png');
+}
+
+.java {
+    background-image: url('obrazki/java.gif');
+}
+
+.js {
+    background-image: url('obrazki/js.gif');
+}
+
+.perl {
+    background-image: url('obrazki/perl.gif');
+}
+
+.php {
+    background-image: url('obrazki/php.gif');
+}
+
+.python {
+    background-image: url('obrazki/python.gif');
+}
+
+.ruby {
+    background-image: url('obrazki/ruby.gif');
+}
+
+.hidden {
+    background-image: url("obrazki/hidden.gif");
+    background-color: black;
+}
+
+.off {
+    background-image: url("obrazki/off.gif");
+    background-color: white;
+}
